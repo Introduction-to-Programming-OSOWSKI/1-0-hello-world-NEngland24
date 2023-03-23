@@ -9,8 +9,8 @@ year = 2023
 month = 3
 day = 24
 
-def test_code():
-    assert main.hellowWorld() == "Hello World!, "Your function did not return Hello World!"
+def _code():
+    assert main.hellowWorld() == "Hello World!", "Your function did not return Hello World!"
 
-def test_late():
+def _late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"

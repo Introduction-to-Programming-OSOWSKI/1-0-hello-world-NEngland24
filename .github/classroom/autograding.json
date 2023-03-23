@@ -1,9 +1,9 @@
 {
-  "tests": [
+  "s": [
     {
       "name": "code",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest tests.py::test_code",
+      "setup": "sudo -H pip3 install py",
+      "run": "py s.py::_code",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -12,8 +12,8 @@
     },
     {
       "name": "late",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest tests.py::test_late",
+      "setup": "sudo -H pip3 install py",
+      "run": "py s.py::_late",
       "input": "",
       "output": "",
       "comparison": "included",
